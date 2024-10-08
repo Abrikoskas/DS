@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8000
 
 # Определяем команду для запуска приложения
-CMD ["gunicorn", "-b", "0.0.0.0:8000", "app:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:8000", "-k", "eventlet", "app:app"]

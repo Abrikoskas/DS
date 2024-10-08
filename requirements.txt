@@ -2,8 +2,11 @@ bidict==0.23.1
 blinker==1.8.2
 click==8.1.7
 colorama==0.4.6
+dnspython==2.7.0
+eventlet==0.37.0
 Flask==3.0.3
 Flask-SocketIO==5.4.1
+greenlet==3.1.1
 gunicorn==23.0.0
 h11==0.14.0
 itsdangerous==2.2.0
